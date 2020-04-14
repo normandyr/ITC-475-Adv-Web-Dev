@@ -84,9 +84,6 @@
 			
 			
 		}
-		else{
-			$NA = "No Destination Selected";
-		}
 		
 		if(isset($_GET['City_Tours'])){
 			$CT = "City Tours";
@@ -143,11 +140,7 @@
 			
 			
 		}
-		else{
-			$NAA = "No Activities Selected";
-			
-			
-		}
+		
 		
 		
 		echo "Client First Name:&nbsp" .$_GET["Firstname"].'<br/>'.'<br/>';
