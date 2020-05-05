@@ -1,0 +1,32 @@
+html,
+            body{
+                height: 100%;
+                width:100%;
+                margin: 0;
+                overflow-x:hidden;
+				background-color: lightgray;
+            }
+        footer{
+            background-color:white;            
+            font-size: small;
+		}
+			
+		
+       .scoreboard{
+		   text-align: center;
+		   font-size: large;
+	   }
+	   #scoreUserMain{
+		   text-align: center;
+	   }
+	   .adminM{
+	   text-align: center}
+	   .thanks{
+	   text-align: center}
+	   .urInfo{
+	   text-align: center}
+		
+       
+
+
+   

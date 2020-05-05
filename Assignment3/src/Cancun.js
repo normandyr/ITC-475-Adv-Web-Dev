@@ -26,11 +26,11 @@ function display4(){
 var listItems = props.map((item) => NumberList4({key: props.id, item: item})); 
   
   return(
-    React.createElement("div", {
+    React.createElement("form", {
       className: "todo-list"
-    },"Select Activities From Below", React.createElement("p", {
+    },"Select Activities From Below", React.createElement("span", {
       className: "todo"
-    }, listItems))
+    }, listItems),React.createElement("br", {}), React.createElement("input", {type:"submit", value: "Submit"}), React.createElement("input", {type:"reset", value: "Reset"}))
     );}
 
 
@@ -41,6 +41,8 @@ class Cancun extends React.Component {
     super(props);
     this.state = { liked: false };
   }
+
+  onClick = (e)=>this.setState({ liked: false });
 
   render() {
     if (this.state.liked) {
@@ -54,7 +56,7 @@ class Cancun extends React.Component {
 
     return c(
       'button',
-      { onClick: () => this.setState({ liked: true }) },"Cancun",x );
+      { onClick: () => this.setState({ liked: true }) },"Cancun",x);
 
     }
 }

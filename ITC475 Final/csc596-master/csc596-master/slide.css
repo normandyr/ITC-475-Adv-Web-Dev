@@ -1,0 +1,16 @@
+html,
+body {
+    background-color: lightgray;
+}
+
+#maininfo{
+    text-align: center;
+}
+
+#deathclock{
+    text-align: center;
+}
+
+#myForm{
+    text-align: center;
+}

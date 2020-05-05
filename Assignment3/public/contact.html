@@ -6,13 +6,7 @@
         <meta name="travel">
         
         <link rel="stylesheet" type="text/css" href="stylecontact.css">
-        <title> Mega Travel</title> 
-       
-        
-        
-          
-        
-
+        <title> Mega Travel</title>      
     </head>
     
     
@@ -31,51 +25,48 @@
     </nav>   
 
     <body>
-        <div id="example"></div>
-
         <!-- Load React. -->
         <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
         <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
         <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>-->
-        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-    
-        <!-- Load our React component. -->
-        <div>
-            Please Check Our Activities For Each Destination:
-        <span id="new">
-            <script src="../src/NewZealand.js"></script>
-
-        </span>     
-        <span id="asia">
-            <script src="../src/SouthAsia.js"></script>
-         </span> 
-         <span id="italy">
-            <script src="../src/Italy.js"></script>
-         </span>
-         <span id="cancun">
-            <script src="../src/Cancun.js"></script>
-         </span>
-        </div>
-         
-          
-           
-        
-      
-       
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>    
+        <!-- Load our React component. -->  
         <article class="the-p">
             <br/>
             <h1 class="travel">&nbsp; Contact an Agent </h1>
-            
-            
-            <div id="southAsia"></div>
-            <div id="italy"></div>
-            <div id="cancun"></div>
-            <p>
+            <div>
                We would love to know more about your travel plans.
                Please fill out this contact form to get in touch with a travel agent.
-            </p>
-            <br/>
+            </div>
+            <div id= "formfind" style="width: max-content;">
+                <script src="../src/FormFind.js"></script>
+                <table>
+                    <tr>
+                        <th> Please Check Our Activities For Each Destination:</th>
+                    </table>
+                        <div text-align="center">
+                        <span id="new">
+                            <script src="../src/NewZealand.js"></script>                         
+                        </span>     
+                        <span id="asia">
+                            <script src="../src/SouthAsia.js"></script>
+                         </span> 
+                         <span id="italy">
+                            <script src="../src/Italy.js"></script>
+                         </span>
+                         <span id="cancun">
+                            <script src="../src/Cancun.js"></script>
+                         </span>
+                        </div> 
+                        <div>
+                        </div>               
+                
+            </div>
         </article>  
+        
+        
+                
+           
         
         <div class="foot" style=" position: relative;">
             <div style=" position: absolute; top: 10px; width: 100%;">
@@ -92,7 +83,7 @@
       
     </body>
 
-    <footer style=" position: relative;">
+    <footer style=" position: absolute; bottom: -5px; left: -5px">
        
 
       

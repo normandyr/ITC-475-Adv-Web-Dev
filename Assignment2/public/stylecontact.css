@@ -141,6 +141,15 @@ html,
         .makelightgray{
             color:lightslategray;
         }
+        #example {
+            position: relative;
+            display: inline-block;
+          }
+          
+          
+        #example:hover .shopping-list {
+            display: block;
+          }
 
 
     @media (max-width: 768px) {

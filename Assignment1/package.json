@@ -1,0 +1,16 @@
+{
+  "name": "assignment-1",
+  "version": "1.0.0",
+  "description": "react module for assignments in itc-475",
+  "main": "re.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NR",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}

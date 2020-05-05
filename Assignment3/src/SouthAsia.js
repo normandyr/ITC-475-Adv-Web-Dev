@@ -26,11 +26,11 @@ function display2(){
 var listItems = props.map((item) => NumberList2({key: props.id, item: item})); 
   
   return(
-    React.createElement("div", {
+    React.createElement("form", {
       className: "todo-list"
     },"Select Activities From Below", React.createElement("p", {
       className: "todo"
-    }, listItems))
+    }, listItems),React.createElement("br", {}), React.createElement("input", {type:"submit", value: "Submit"}), React.createElement("input", {type:"reset", value: "Reset"}))
     );}
 
 

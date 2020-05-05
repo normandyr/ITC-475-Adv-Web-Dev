@@ -1,0 +1,219 @@
+html,
+            body{
+                height: 100%;
+                width:100%;
+                margin: 0;
+                overflow-x:hidden;
+            }
+        footer{
+            background-color:white;            
+            padding:50px;
+            font-size: small;
+            
+        }
+       .foot{
+            background-color: black;
+            color: white;
+            padding:50px;
+            font-size: small;
+            
+        }
+       
+        .one{
+            background-color: lightskyblue;
+            margin: 0;
+            padding: 0;
+        }
+
+        .two{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-weight: bold;
+            
+            white-space: nowrap;
+
+
+        }
+        .home{
+            position: relative;
+            top: 0;
+            color: black;
+            text-decoration: none;
+            transition: top .5s, color .5s;
+        }
+
+        .home:hover{
+            top: -10px;
+            text-decoration: none;
+            color: red;
+
+        }
+
+        .about{
+            position: relative;
+            top: 0;
+            color: black;
+            text-decoration: none;
+            transition: top .5s, color .5s;
+        }
+
+        .about:hover{
+            top: -10px;
+            text-decoration: none;
+            color: red;
+
+        }
+
+
+        .agent{
+            position: relative;
+            top: 0;
+            color: black;
+            text-decoration: none;
+            transition: top .5s, color .5s;
+        }
+
+        .agent:hover{
+            top: -10px;
+            text-decoration: none;
+            color: red;
+
+        }
+
+        .product:hover{
+            background-color: black;
+            color:white;
+        }
+
+        .product-cards {
+            display: grid;
+            overflow: hidden;
+            margin-bottom: 30px;
+            grid-template-columns: auto auto auto auto;
+          }
+
+          .product {
+            display: inline;         
+            padding: 35px;
+            margin: 10px;
+            border: 1px solid black; 
+            
+
+        }
+
+        .product a {
+        color: black;
+        text-decoration: none;
+        }
+
+       
+        img{
+            width: 100%;
+        }
+        p{
+            text-align: left;
+            padding:10px;
+        }
+      
+
+        .the-p {
+        margin: 30px 0;
+        padding-left: 10px;
+        width: 50%;
+        }
+
+        .the-p h1 {
+        margin-bottom: 15px;
+        }
+
+        .the-p p {
+        line-height: 1.5;
+        }
+        .under{
+            text-decoration-line: underline;
+            font-weight: bold;
+
+        }
+        .makegreen{
+            color:green;
+        }
+        .makelightgray{
+            color:lightslategray;
+        }
+
+
+    @media (max-width: 768px) {
+        
+    	.logo {
+    		display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        	
+    	}
+        
+        .the-p {
+            margin-left:auto;
+            margin-right: auto;
+            width: 100%;
+            
+        	
+    	}
+    	nav {
+    		background: transparent;
+    		margin-top: 0;
+    		margin-left: 30px;
+    	}
+    	.two {
+    		background-color: black;
+            color: white;
+            margin: 0px;
+    	}
+       .home{
+           color: white;
+           position: relative;
+           top: 0;
+            
+       }
+       .home:hover{
+            top: 0;
+            text-decoration: none;
+            color: orange;
+       }
+
+       .about{
+           color: white;
+           position: relative;
+           top: 0;
+            
+       }
+       .about:hover{
+            top: 0;
+            text-decoration: none;
+            color: orange;
+       }
+
+       .agent{
+           color: white;
+           position: relative;
+           top: 0;
+            
+       }
+       .agent:hover{
+            top: 0;
+            text-decoration: none;
+            color: orange;
+       }
+        
+    	
+    	.product-cards {
+      	display: block;
+      	grid-template-columns: auto auto auto auto;
+     	}
+        .product {
+                display: block;
+            }
+
+       
+   }
